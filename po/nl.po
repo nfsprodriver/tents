@@ -1,0 +1,137 @@
+# Dutch translation for tents
+# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# This file is distributed under the same license as the tents package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tents\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2017-02-07 22:28+1300\n"
+"PO-Revision-Date: 2017-02-17 10:08+0000\n"
+"Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
+"Language-Team: Dutch <nl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-02-28 05:32+0000\n"
+"X-Generator: Launchpad (build 18329)\n"
+
+#. TRANSLATORS: Title for dialog shown when starting a new game while one in progress
+#: main.qml:84
+msgid "Game in progress"
+msgstr "Bezig met een spel"
+
+#. TRANSLATORS: Content for dialog shown when starting a new game while one in progress
+#: main.qml:86
+msgid "Are you sure you want to restart this game?"
+msgstr "Weet u zeker dat u dit spel wilt herstarten?"
+
+#. TRANSLATORS: Button in new game dialog that cancels the current game and starts a new one
+#: main.qml:89
+msgid "Restart game"
+msgstr "Spel herstarten"
+
+#. TRANSLATORS: Button in new game dialog that removes the user placed grass and tents
+#: main.qml:98
+msgid "Remove grass and tents"
+msgstr "Tenten en gras verwijderen"
+
+#. TRANSLATORS: Button in new game dialog that cancels new game request
+#: main.qml:106
+msgid "Continue current game"
+msgstr "Doorgaan met huidig spel"
+
+#. TRANSLATORS: Title of application
+#: main.qml:122 tents.desktop.in.h:1
+msgid "Tents"
+msgstr "Tenten"
+
+#. TRANSLATORS: Action on main page that shows game instructions
+#. TRANSLATORS: Title of page with game instructions
+#: main.qml:127 main.qml:165
+msgid "How to Play"
+msgstr "Speluitleg"
+
+#. TRANSLATORS: Action on main page that shows settings dialog
+#. TRANSLATORS: Title of page showing settings
+#: main.qml:133 main.qml:193
+msgid "Settings"
+msgstr "Instellingen"
+
+#. TRANSLATORS: Action on main page that starts a new game
+#: main.qml:139
+msgid "New Game"
+msgstr "Nieuw spel"
+
+#. TRANSLATORS: Game instructions
+#: main.qml:174
+msgid ""
+"<p><i>Tents</i> is a puzzle game where you need to work out where all the "
+"tents are in a field.</p><br/><p>The rules are:</p><ul><li>Each camper has "
+"claimed a tree and placed their tent beside it (these campers like "
+"shade).</li><li>The field is full - there is one tent for every "
+"tree.</li><li>No two tents are beside each other, even diagonally (too "
+"noisy!).</li><li>The number of tents in each row / column is shown with a "
+"number.</li></ul><p>You can always work out where all the tents are with "
+"just these rules. Touching a square allows you to mark it as grass (i.e. a "
+"tent cannot be here) or a tent.</p><br/><p>Have fun!</p>"
+msgstr ""
+"<p><i>Tenten</i> is een puzzelspel waarin u moet uitzoeken waar alle tenten "
+"staan opgesteld op het veld.</p><br/><p>De regels zijn:</p><ul><li>Elke "
+"kampeerder heeft een boom opgeëisd en zijn/haar tent ernaast opgesteld (deze "
+"kampeerders houden van schaduw).</li><li>Het veld is vol - voor elke boom is "
+"er één tent.</li><li>Er staan nooit twee tenten naast elkaar, zelfs niet "
+"diagonaal (te lawaaiig!).</li><li>Het aantal tenten per rij/kolom wordt "
+"aangegeven d.m.v. een cijfer.</li></ul><p>U kunt altijd uitvogelen waar "
+"tenten staan opgesteld met slechts deze regels. Het aanraken van een "
+"vierkant stelt u in staat het te markeren als gras (u denkt dus dat daar "
+"geen tent is) of als tent.</p><br/><p>Veel plezier!</p>"
+
+#. TRANSLATORS: Label above setting to choose the field size
+#: main.qml:200
+msgid "Field size:"
+msgstr "Veldgrootte:"
+
+#. TRANSLATORS: Setting name for small and easy field
+#: main.qml:208
+msgid "Small (easy)"
+msgstr "Klein (makkelijk)"
+
+#. TRANSLATORS: Setting name for small and difficult field
+#: main.qml:211
+msgid "Small (difficult)"
+msgstr "Klein (moeilijk)"
+
+#. TRANSLATORS: Setting name for medium and easy field
+#: main.qml:214
+msgid "Medium (easy)"
+msgstr "Groter (makkelijk)"
+
+#. TRANSLATORS: Setting name for medium and difficult field
+#: main.qml:217
+msgid "Medium (difficult)"
+msgstr "Gemiddeld (moeilijk)"
+
+#. TRANSLATORS: Setting name for large and easy field
+#: main.qml:220
+msgid "Large (easy)"
+msgstr "Groot (makkelijk)"
+
+#. TRANSLATORS: Setting name for large and difficult field
+#: main.qml:223
+msgid "Large (difficult)"
+msgstr "Groot (moeilijk)"
+
+#. TRANSLATORS: Description format for field size, %width%, %height% and %ntrees% is replaced with the field width, height and number of trees
+#: main.qml:229
+msgid "%width%×%height%, %ntrees% trees"
+msgstr "%width%×%height%, %ntrees% bomen"
+
+#: tents.desktop.in.h:2
+msgid "Camping puzzle game"
+msgstr "Camping-puzzelspel"
+
+#: tents.desktop.in.h:3
+msgid "puzzle,tents,tent,tree"
+msgstr "puzzel,tenten,tent,boom"

@@ -1,0 +1,15 @@
+{
+    "architecture": "all",
+    "description": "Camping puzzle game",
+    "framework": "ubuntu-sdk-15.04",
+    "hooks": {
+        "tents": {
+            "apparmor": "tents.apparmor",
+            "desktop": "tents.desktop"
+        }
+    },
+    "maintainer": "Robert Ancell <robert.ancell@gmail.com>",
+    "name": "tents.robert-ancell",
+    "title": "Tents",
+    "version": "8"
+}

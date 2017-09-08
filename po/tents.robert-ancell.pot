@@ -1,0 +1,194 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-08 07:19+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: main.qml:112 main.qml:296
+msgid "seconds"
+msgstr ""
+
+#. TRANSLATORS: Label shown below high score for a score just achieved
+#: main.qml:126
+msgid "Now"
+msgstr ""
+
+#. TRANSLATORS: Label shown below high score for a score achieved seconds ago
+#: main.qml:131
+msgid "%n second ago"
+msgid_plural "%n seconds ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: Label shown below high score for a score achieved minutes ago
+#: main.qml:137
+msgid "%n minute ago"
+msgid_plural "%n minutes ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: Label shown below high score for a score achieved hours ago
+#: main.qml:143
+msgid "%n hour ago"
+msgid_plural "%n hours ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: Label shown below high score for a score achieved days ago
+#: main.qml:149
+msgid "%n day ago"
+msgid_plural "%n days ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: Title for dialog shown when starting a new game while one in progress
+#: main.qml:183
+msgid "Game in progress"
+msgstr ""
+
+#. TRANSLATORS: Content for dialog shown when starting a new game while one in progress
+#: main.qml:185
+msgid "Are you sure you want to restart this game?"
+msgstr ""
+
+#. TRANSLATORS: Button in new game dialog that cancels the current game and starts a new one
+#: main.qml:188
+msgid "Restart game"
+msgstr ""
+
+#. TRANSLATORS: Button in new game dialog that removes the user placed grass and tents
+#: main.qml:199
+msgid "Remove grass and tents"
+msgstr ""
+
+#. TRANSLATORS: Button in new game dialog that cancels new game request
+#: main.qml:209
+msgid "Continue current game"
+msgstr ""
+
+#. TRANSLATORS: Title for dialog confirming if scores should be cleared
+#: main.qml:219
+msgid "Clear scores for"
+msgstr ""
+
+#. TRANSLATORS: Content for dialog confirming if scores should be cleared
+#: main.qml:221
+msgid "Existing scores will be deleted. This cannot be undone."
+msgstr ""
+
+#. TRANSLATORS: Button in clear scores dialog that clears scores
+#: main.qml:224
+msgid "Clear scores"
+msgstr ""
+
+#. TRANSLATORS: Button in clear scores dialog that cancels clear scores request
+#: main.qml:233
+msgid "Keep existing scores"
+msgstr ""
+
+#. TRANSLATORS: Title of application
+#: main.qml:249 tents.desktop.in.h:1
+msgid "Tents"
+msgstr ""
+
+#. TRANSLATORS: Action on main page that shows settings dialog
+#. TRANSLATORS: Title of page showing settings
+#: main.qml:254 main.qml:353
+msgid "Settings"
+msgstr ""
+
+#. TRANSLATORS: Action on main page that starts a new game
+#: main.qml:260
+msgid "New Game"
+msgstr ""
+
+#. TRANSLATORS: Action on main page that shows game instructions
+#. TRANSLATORS: Title of page with game instructions
+#: main.qml:273 main.qml:325
+msgid "How to Play"
+msgstr ""
+
+#: main.qml:278
+msgid "High scores"
+msgstr ""
+
+#. TRANSLATORS: Game instructions
+#: main.qml:334
+msgid ""
+"<p><i>Tents</i> is a puzzle game where you need to work out where all the "
+"tents are in a field.</p><br/><p>The rules are:</p><ul><li>Each camper has "
+"claimed a tree and placed their tent beside it (these campers like shade).</"
+"li><li>The field is full - there is one tent for every tree.</li><li>No two "
+"tents are beside each other, even diagonally (too noisy!).</li><li>The "
+"number of tents in each row / column is shown with a number.</li></ul><p>You "
+"can always work out where all the tents are with just these rules. Touching "
+"a square allows you to mark it as grass (i.e. a tent cannot be here) or a "
+"tent.</p><br/><p>Have fun!</p>"
+msgstr ""
+
+#. TRANSLATORS: Label above setting to choose the field size
+#: main.qml:360
+msgid "Field size:"
+msgstr ""
+
+#. TRANSLATORS: Setting name for small and easy field
+#: main.qml:368
+msgid "Small (easy)"
+msgstr ""
+
+#. TRANSLATORS: Setting name for small and difficult field
+#: main.qml:371
+msgid "Small (difficult)"
+msgstr ""
+
+#. TRANSLATORS: Setting name for medium and easy field
+#: main.qml:374
+msgid "Medium (easy)"
+msgstr ""
+
+#. TRANSLATORS: Setting name for medium and difficult field
+#: main.qml:377
+msgid "Medium (difficult)"
+msgstr ""
+
+#. TRANSLATORS: Setting name for large and easy field
+#: main.qml:380
+msgid "Large (easy)"
+msgstr ""
+
+#. TRANSLATORS: Setting name for large and difficult field
+#: main.qml:383
+msgid "Large (difficult)"
+msgstr ""
+
+#. TRANSLATORS: Description format for field size, %width%, %height% and %ntrees% is replaced with the field width, height and number of trees
+#: main.qml:389
+msgid "%width%×%height%, %ntrees% trees"
+msgstr ""
+
+#. TRANSLATORS: Title of page showing high scores
+#: main.qml:452
+msgid "High Scores for"
+msgstr ""
+
+#: tents.desktop.in.h:2
+msgid "Camping puzzle game"
+msgstr ""
+
+#: tents.desktop.in.h:3
+msgid "puzzle,tents,tent,tree"
+msgstr ""
