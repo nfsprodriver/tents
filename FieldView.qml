@@ -7,7 +7,7 @@
  * text of the license.
  */
 
-import QtQuick 2.4
+import QtQuick 2.0
 import Ubuntu.Components 1.3
 
 Grid {
@@ -34,13 +34,14 @@ Grid {
             border.color: model.state == "count" || model.state == "blank" ? "transparent" : "black"
             Image {
                 id: image
-                anchors.centerIn: parent
-                sourceSize.width: parent.width * 0.8
+                anchors.fill: parent
+                anchors.margins: units.gu (1)
+                property int icon_index: Math.floor (Math.random () * 3) + 1
                 source: {
                     if (model.state == "tree")
-                        return "tree.svg"
+                        return "tree-" + icon_index + ".svg"
                     else if (model.state == "tent")
-                        return "tent.svg"
+                        return "tent-" + icon_index + ".svg"
                     else
                         return ""
                 }
@@ -51,13 +52,7 @@ Grid {
                 horizontalAlignment: Text.AlignHCenter
                 verticalAlignment: Text.AlignVCenter
                 text: model.state == "count" ? model.count : ""
-                color: {
-                    if (grid.model.completed)
-                        return UbuntuColors.green
-                    if (model.error)
-                        return UbuntuColors.red
-                    return UbuntuColors.darkGrey
-                }
+                color: model.error ? UbuntuColors.red : UbuntuColors.darkGrey
                 font.bold: true
                 font.pixelSize: grid.cell_size * 0.6
             }
