@@ -34,8 +34,9 @@ Grid {
             border.color: model.state == "count" || model.state == "blank" ? "transparent" : "black"
             Image {
                 id: image
-                anchors.fill: parent
                 property int icon_index: Math.floor (Math.random () * 3) + 1
+                anchors.centerIn: parent
+                sourceSize.width: parent.width * 0.8
                 source: {
                     if (model.state == "tree")
                         return "tree-" + icon_index + ".svg"
