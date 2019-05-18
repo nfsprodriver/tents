@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the tents.robert-ancell package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: tents.robert-ancell\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-08 07:19+0200\n"
+"POT-Creation-Date: 2019-05-18 19:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,116 +18,116 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: main.qml:112 main.qml:296
+#: ../qml/main.qml:113 ../qml/main.qml:297
 msgid "seconds"
 msgstr ""
 
 #. TRANSLATORS: Label shown below high score for a score just achieved
-#: main.qml:126
+#: ../qml/main.qml:127
 msgid "Now"
 msgstr ""
 
 #. TRANSLATORS: Label shown below high score for a score achieved seconds ago
-#: main.qml:131
+#: ../qml/main.qml:132
 msgid "%n second ago"
 msgid_plural "%n seconds ago"
 msgstr[0] ""
 msgstr[1] ""
 
 #. TRANSLATORS: Label shown below high score for a score achieved minutes ago
-#: main.qml:137
+#: ../qml/main.qml:138
 msgid "%n minute ago"
 msgid_plural "%n minutes ago"
 msgstr[0] ""
 msgstr[1] ""
 
 #. TRANSLATORS: Label shown below high score for a score achieved hours ago
-#: main.qml:143
+#: ../qml/main.qml:144
 msgid "%n hour ago"
 msgid_plural "%n hours ago"
 msgstr[0] ""
 msgstr[1] ""
 
 #. TRANSLATORS: Label shown below high score for a score achieved days ago
-#: main.qml:149
+#: ../qml/main.qml:150
 msgid "%n day ago"
 msgid_plural "%n days ago"
 msgstr[0] ""
 msgstr[1] ""
 
 #. TRANSLATORS: Title for dialog shown when starting a new game while one in progress
-#: main.qml:183
+#: ../qml/main.qml:184
 msgid "Game in progress"
 msgstr ""
 
 #. TRANSLATORS: Content for dialog shown when starting a new game while one in progress
-#: main.qml:185
+#: ../qml/main.qml:186
 msgid "Are you sure you want to restart this game?"
 msgstr ""
 
 #. TRANSLATORS: Button in new game dialog that cancels the current game and starts a new one
-#: main.qml:188
+#: ../qml/main.qml:189
 msgid "Restart game"
 msgstr ""
 
 #. TRANSLATORS: Button in new game dialog that removes the user placed grass and tents
-#: main.qml:199
+#: ../qml/main.qml:200
 msgid "Remove grass and tents"
 msgstr ""
 
 #. TRANSLATORS: Button in new game dialog that cancels new game request
-#: main.qml:209
+#: ../qml/main.qml:210
 msgid "Continue current game"
 msgstr ""
 
 #. TRANSLATORS: Title for dialog confirming if scores should be cleared
-#: main.qml:219
+#: ../qml/main.qml:220
 msgid "Clear scores for"
 msgstr ""
 
 #. TRANSLATORS: Content for dialog confirming if scores should be cleared
-#: main.qml:221
+#: ../qml/main.qml:222
 msgid "Existing scores will be deleted. This cannot be undone."
 msgstr ""
 
 #. TRANSLATORS: Button in clear scores dialog that clears scores
-#: main.qml:224
+#: ../qml/main.qml:225
 msgid "Clear scores"
 msgstr ""
 
 #. TRANSLATORS: Button in clear scores dialog that cancels clear scores request
-#: main.qml:233
+#: ../qml/main.qml:234
 msgid "Keep existing scores"
 msgstr ""
 
 #. TRANSLATORS: Title of application
-#: main.qml:249 tents.desktop.in.h:1
+#: ../qml/main.qml:250 tents.desktop.in.h:1
 msgid "Tents"
 msgstr ""
 
 #. TRANSLATORS: Action on main page that shows settings dialog
 #. TRANSLATORS: Title of page showing settings
-#: main.qml:254 main.qml:353
+#: ../qml/main.qml:255 ../qml/main.qml:355
 msgid "Settings"
 msgstr ""
 
 #. TRANSLATORS: Action on main page that starts a new game
-#: main.qml:260
+#: ../qml/main.qml:261
 msgid "New Game"
 msgstr ""
 
 #. TRANSLATORS: Action on main page that shows game instructions
 #. TRANSLATORS: Title of page with game instructions
-#: main.qml:273 main.qml:325
+#: ../qml/main.qml:274 ../qml/main.qml:327
 msgid "How to Play"
 msgstr ""
 
-#: main.qml:278
+#: ../qml/main.qml:279
 msgid "High scores"
 msgstr ""
 
 #. TRANSLATORS: Game instructions
-#: main.qml:334
+#: ../qml/main.qml:336
 msgid ""
 "<p><i>Tents</i> is a puzzle game where you need to work out where all the "
 "tents are in a field.</p><br/><p>The rules are:</p><ul><li>Each camper has "
@@ -141,47 +141,47 @@ msgid ""
 msgstr ""
 
 #. TRANSLATORS: Label above setting to choose the field size
-#: main.qml:360
+#: ../qml/main.qml:362
 msgid "Field size:"
 msgstr ""
 
 #. TRANSLATORS: Setting name for small and easy field
-#: main.qml:368
+#: ../qml/main.qml:370
 msgid "Small (easy)"
 msgstr ""
 
 #. TRANSLATORS: Setting name for small and difficult field
-#: main.qml:371
+#: ../qml/main.qml:373
 msgid "Small (difficult)"
 msgstr ""
 
 #. TRANSLATORS: Setting name for medium and easy field
-#: main.qml:374
+#: ../qml/main.qml:376
 msgid "Medium (easy)"
 msgstr ""
 
 #. TRANSLATORS: Setting name for medium and difficult field
-#: main.qml:377
+#: ../qml/main.qml:379
 msgid "Medium (difficult)"
 msgstr ""
 
 #. TRANSLATORS: Setting name for large and easy field
-#: main.qml:380
+#: ../qml/main.qml:382
 msgid "Large (easy)"
 msgstr ""
 
 #. TRANSLATORS: Setting name for large and difficult field
-#: main.qml:383
+#: ../qml/main.qml:385
 msgid "Large (difficult)"
 msgstr ""
 
 #. TRANSLATORS: Description format for field size, %width%, %height% and %ntrees% is replaced with the field width, height and number of trees
-#: main.qml:389
+#: ../qml/main.qml:391
 msgid "%width%×%height%, %ntrees% trees"
 msgstr ""
 
 #. TRANSLATORS: Title of page showing high scores
-#: main.qml:452
+#: ../qml/main.qml:454
 msgid "High Scores for"
 msgstr ""
 

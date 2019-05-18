@@ -2,8 +2,8 @@
 _Name=Tents
 _Comment=Camping puzzle game
 _Keywords=puzzle,tents,tent,tree
-Exec=qmlscene $@ main.qml
-Icon=tents.png
+Exec=qmlscene qml/main.qml
+Icon=assets/tents.png
 Terminal=false
 Type=Application
 X-Ubuntu-Touch=true

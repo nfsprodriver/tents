@@ -39,9 +39,9 @@ Grid {
                 sourceSize.width: parent.width * 0.8
                 source: {
                     if (model.state == "tree")
-                        return "tree-" + icon_index + ".svg"
+                        return "../assets/tree-" + icon_index + ".svg"
                     else if (model.state == "tent")
-                        return "tent-" + icon_index + ".svg"
+                        return "../assets/tent-" + icon_index + ".svg"
                     else
                         return ""
                 }

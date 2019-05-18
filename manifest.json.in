@@ -1,15 +1,16 @@
 {
-    "architecture": "all",
+    "name": "tents.robert-ancell",
     "description": "Camping puzzle game",
-    "framework": "ubuntu-sdk-15.04",
+    "architecture": "@CLICK_ARCH@",
+    "title": "Tents",
     "hooks": {
         "tents": {
             "apparmor": "tents.apparmor",
             "desktop": "tents.desktop"
         }
     },
+    "version": "10",
     "maintainer": "Robert Ancell <robert.ancell@gmail.com>",
-    "name": "tents.robert-ancell",
-    "title": "Tents",
-    "version": "9"
+    "framework": "ubuntu-sdk-16.04"
 }
+

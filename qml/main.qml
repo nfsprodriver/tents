@@ -11,6 +11,7 @@ import QtQuick 2.0
 import Ubuntu.Components 1.3
 import Ubuntu.Components.ListItems 1.3 as ListItem
 import Ubuntu.Components.Popups 1.3
+import Ubuntu.Components.Themes 1.3
 import QtQuick.Layouts 1.1
 import QtQuick.LocalStorage 2.0
 
@@ -276,7 +277,7 @@ MainView {
                 },
                 Action {
                     text: i18n.tr("High scores")
-                    iconSource: "high-scores.svg"
+                    iconSource: "../assets/high-scores.svg"
                     onTriggered: {
                         update_scores ()
                         page_stack.push (scores_page)
@@ -299,6 +300,7 @@ MainView {
 
                 Text {
                     id: time
+                    color: theme.palette.normal.backgroundText
                     visible: timer !== 0
                     anchors.horizontalCenter: parent.horizontalCenter
                     anchors.top: parent.top
