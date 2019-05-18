@@ -9,7 +9,7 @@
             "desktop": "tents.desktop"
         }
     },
-    "version": "10",
+    "version": "11",
     "maintainer": "Robert Ancell <robert.ancell@gmail.com>",
     "framework": "ubuntu-sdk-16.04"
 }
